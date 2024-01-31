@@ -1,0 +1,1 @@
+This java project(with small functionalities) is based on object oriented design and is implemented with private methods inside the class. It handles exception that is, it prompts the user if non-zero value is entered.All the functions are non-static.The calculator uses a menu based input method from user.
