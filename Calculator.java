@@ -1,8 +1,8 @@
 import java.util.*;
-import javax.swing.*;
+import javax.swing.*; //package to use GUI-based input fields
 
 
-class Number{
+class Number{    // a class is defined to accommodate the numbers taken as input from input fields
     int a;
     int b;
     Number(int a)
@@ -16,13 +16,13 @@ class Number{
         this.b = b;
     }
 
-    void power(int base, int power)
+    void power(int base, int power) // function which calculates the power of base taken as input
     {
         double P = Math.pow(base, power);
         JOptionPane.showMessageDialog(null,base +" raise to "+ power+ " is: " +P);
     }
 
-    long  fact(int num)
+    long  fact(int num) // function which calculates factorial 
     {
         if (num==0 || num ==1) {
             return 1;
@@ -35,7 +35,7 @@ class Number{
         return result;
     }
 
-    boolean perf(int num)
+    boolean perf(int num) //function which checks if number is perfect square or not
     {
         int sqrt = (int) Math.sqrt(num);
         return sqrt*sqrt == num;
